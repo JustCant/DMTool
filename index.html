@@ -28,7 +28,7 @@
                   <th>Name</th>
                   <th id='initiativeHeader'>Initiative</th>
                 </tr>
-              </thead>
+              </thead> 
               <tbody>
                 <tr ng-class="{hero: char.type === 'hero', enemy: char.type === 'enemy'}" class="initRow" ng-repeat="char in appService.localChars | orderBy: '-initiative' track by char.id">
                   <td>{{char.name}}</td>
