@@ -9,12 +9,12 @@
     <link rel='stylesheet' href='/public/build/styles.min.css'>
     <base href='justcant.github.io/DMTool'>
   </head>
-  <body>
+  <body ng-controller='characterCtrl'>
     <header>
       <h1 id='title'>Character Tracker</h1>
     </header>
     <br/>
-    <characters ng-controller='characterCtrl'>
+    <characters>
 
       <initiative ng-controller='initiativeCtrl'>
         <div class="btn-group dropleft initiative">
